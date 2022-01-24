@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  selenium_standalone_chrome:
+    image: "selenium/standalone-chrome:97.0"
+    ports:
+      - "4444:4444"
+    shm_size: "2GB"
+  nba_playlist_generator:
+    build: .
+    depends_on:
+      - "selenium_standalone_chrome"
+    environment:
+      - SELENIUM_HOST=selenium
+    links:
+      - "selenium_standalone_chrome:selenium"
+    command: ["./script/wait-for-selenium.sh", "selenium", "python3", "nbaPlaylistGenerator/main.py"]

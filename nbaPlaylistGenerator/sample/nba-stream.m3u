@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1, NBATV
+https://d10nbk66ckd93y.cloudfront.net/hls/nbatv/playlist.m3u8
+#EXTINF:-1, Heat vs Lakers - 1
+https://d55gh12iqapwi.cloudfront.net/stream/MjYzOA==/1080p.m3u8
+#EXTINF:-1, Heat vs Lakers - 2
+https://d10nbk66ckd93y.cloudfront.net/hls/heat/playlist.m3u8
+#EXTINF:-1, Magic vs Bulls - 1
+https://d55gh12iqapwi.cloudfront.net/stream/MjYzOQ==/1080p.m3u8
+#EXTINF:-1, Magic vs Bulls - 2
+https://d10nbk66ckd93y.cloudfront.net/hls/magic/playlist.m3u8
+#EXTINF:-1, Raptors vs Blazers - 1
+https://d55gh12iqapwi.cloudfront.net/stream/MjY0MA==/1080p.m3u8
+#EXTINF:-1, Raptors vs Blazers - 2
+https://d10nbk66ckd93y.cloudfront.net/hls/raptors/playlist.m3u8

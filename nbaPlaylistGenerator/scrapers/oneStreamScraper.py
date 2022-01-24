@@ -14,3 +14,4 @@ class OneStreamScraper:
 
 def format_source_url(source, res):
     return re.sub(r'^(.*)/.*(.m3u8)$', f'\\1/{res}\\2', source)
+
