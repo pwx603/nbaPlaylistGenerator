@@ -1,4 +1,4 @@
-# Nba Reddit Stram Generator #
+# Nba Reddit Stream Playlist Generator #
 
 ## About ##
 Generates m3u playlist for nba games from https://reddit.rnbastreams.com/ and upload it to AWS s3.
